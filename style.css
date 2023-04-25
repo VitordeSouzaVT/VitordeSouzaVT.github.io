@@ -1,14 +1,16 @@
 /* Define a fonte padrão e a cor de fundo da página */
 body {
-  font-family: sans-serif;
+  font-family:Verdana, Tahoma, sans-serif;
   background-color: #c4c4c4c5;
 }
 
 /* Estiliza a imagem do perfil */
-img {
+.profile-picture{
+  border-radius: 50%;
   display: block;
   margin: auto;
-  border-radius: 50%;
+  width: 200px;
+  margin-bottom: 10px;
 }
 
 /* Estiliza o título principal */
@@ -16,22 +18,24 @@ h1 {
   text-align: center;
   font-size: 36px;
   margin-top: 20px;
+  color: #383737;
+  font-weight: 600;
 }
 
 /* Estiliza o parágrafo "Sobre mim" */
 #sobre-mim {
-  text-align: justify;
+  text-align: center;
   font-size: 18px;
   margin: 20px 10px;
-  line-height: 30px;
+  line-height: 25px;
+  padding: 20px 10px;
 }
 
-/* Estiliza a imagem de MG */
-#format-image {
-    border-radius: 0%;
-    width: 25px;
-    margin-top: -20px;
-    margin-left:510px;
+/* Estiliza a bandeira de MG */
+#flag-mg {
+  width: 25px;
+  margin-left:1px;
+  margin-bottom:-2px;
 }
 
 /* Estiliza os parágrafos de informações pessoais */
