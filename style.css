@@ -1,0 +1,89 @@
+/* Define a fonte padrão e a cor de fundo da página */
+body {
+  font-family: sans-serif;
+  background-color: #c4c4c4c5;
+}
+
+/* Estiliza a imagem do perfil */
+img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+/* Estiliza o título principal */
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+/* Estiliza o parágrafo "Sobre mim" */
+#sobre-mim {
+  text-align: justify;
+  font-size: 18px;
+  margin: 20px 10px;
+  line-height: 30px;
+}
+
+/* Estiliza a imagem de MG */
+#format-image {
+    border-radius: 0%;
+    width: 25px;
+    margin-top: -20px;
+    margin-left: 70px;
+}
+
+/* Estiliza os parágrafos de informações pessoais */
+p {
+  font-size: 20px;
+  margin: 10px 10px 0;
+}
+
+/* Estiliza os títulos secundários */
+h2, h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+/* Estiliza a lista de habilidades */
+ul {
+  list-style-type: style m;
+  margin: 20px 10px;
+  padding: 5px;
+}
+
+/* Estiliza os itens da lista de habilidades */
+li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Estiliza os links das redes sociais e dos links externos */
+a {
+  color: #54656e;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estiliza o índice, ainda não foi feito */
+#indice {
+  margin-top: 20px;
+}
+
+/* Estiliza os itens do índice, ainda não foi feito */
+#indice li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Insere imagem de fundo, ainda não foi feito */
+
+body {
+    background-image: url;
+    background-size: cover;/* faz com que a imagem cubra todo o fundo */
+  }
+  
