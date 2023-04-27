@@ -1,39 +1,37 @@
 * {
-  margin: 0;  
-  padding: 0;
-}
-/* Define a fonte padrão e a cor de fundo da página */
-body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #c4c4c4c5;
+  margin: 0;
+  padding:
 }
 
 /* Estiliza o título principal */
-.head {
-  border: 5px solid yellow;
-  margin: auto;
-  }
-  
- .header {
+.header {
   border: 2px solid red;
- }
-/* Estiliza a imagem do perfil */
-.profile-picture{
-  border: 5px solid green;
-  width: 300px;
-  margin-bottom: 10px;
-  border-radius: 10%;
-  display: inline;
-  float: left;
-  }
-/* Estiliza o parágrafo "Sobre mim" */
-.sobre-mim {
-  border: 2px solid blue;
-  text-align: justify;
-  font-size: 18px;
- }
+  margin: auto;
+  padding: 30px 50px 30px 50px;
+}
 
-.me {
-  display: inline-block;
-  float: right;
+.tittle {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
+}
+
+/* Estiliza a imagem do perfil */
+.profile-picture {
+  max-width: auto;
+  }
+
+.image {
+  width: 200px;
+  border-radius: 10%;
+}
+
+.sobre-mim {
+  
+}
+
+.p1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin-top: -150px;
 }
