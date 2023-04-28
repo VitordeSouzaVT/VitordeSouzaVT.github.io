@@ -48,6 +48,12 @@ nav {
   transition-timing-function: ease-in-out;
 }
 
+/* Seção 2 */
+.article1 {
+  background-color: rgb(241, 242, 235);
+ 
+  
+}
 /* Estiliza a imagem do perfil */
 .profile-picture {
  width: 300px;
@@ -57,8 +63,59 @@ nav {
 /* Estiliza a seção sobre mim */
 .me {
   border: 2px solid blue;
-  
 }
-.profile-picture, .me{
-  display: inline-block;
+
+.article2 {
+  background-color: rgb(241, 242, 235);
+}
+
+.contact-me {
+  background-color: rgb(241, 242, 235);
+}
+
+#myskills {
+  text-align: center;
+}
+
+.hard-skills {
+  display: block;
+  width: 50%;
+  height: 20%;
+  margin-left:10px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(212, 212, 199);
+  border-radius: 50px;
+  line-height: 2.5;
+  background: rgb(212, 212, 199)  ;
+  box-shadow: 20px 20px 60px #d0d8ca, -20px -20px 60px #abb6ae;
+}
+
+.soft-skills{
+  display: block;
+  width: 20%;
+    height: 50%;
+    margin-left: 100px;
+    padding: 10px;
+    text-align: left;
+    background-color: rgb(212, 212, 199);
+    border-radius: 50px;
+    line-height: 2.5;
+    line-height: 2.5;
+    background: rgb(212, 212, 199);
+    box-shadow: 20px 20px 60px #d0d8ca, -20px -20px 60px #abb6ae;
+}
+
+footer {
+  background-color: rgb(212, 212, 199);
+  height:80px;
+}
+
+section h3 ul li {
+  list-style: none;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
 }
