@@ -8,30 +8,57 @@
   border: 2px solid red;
   margin: auto;
   padding: 30px 50px 30px 50px;
+  background-color: rgb(212, 212, 199);
+  height: 15px;
+  
 }
-
 .tittle {
   text-align: center;
+  margin: -10px;
+  font-family: 'Castoro Titling', cursive;
+  color: rgb(99, 99, 99);
+ }
+.tittle:hover {
+  font-style:oblique;
+}
+
+/* Estiliza a barra de navegação */
+nav {
+  border: 2px solid yellow;
+  height: 30px;
+  background-color: rgb(229, 230, 220)
+}
+
+.navegadores {
   font-family: 'Montserrat', sans-serif;
-  margin-bottom: 20px;
+  text-decoration: none;
+  color: rgb(99, 99, 99);
+  margin: 10px;
+ 
+}
+.navegadores:active {
+  cursor: pointer;
+  font-weight: lighter;
+}
+.navegadores:hover {
+  font-size:1.2em;
+  color: white;
+  text-decoration: none;
+  -webkit-text-stroke: 2px rgb(82, 82, 82); 
+  transition-timing-function: ease-in-out;
 }
 
 /* Estiliza a imagem do perfil */
 .profile-picture {
-  max-width: auto;
-  }
-
-.image {
-  width: 200px;
-  border-radius: 10%;
+ width: 300px;
+ height: 300px;
 }
 
-.sobre-mim {
+/* Estiliza a seção sobre mim */
+.me {
+  border: 2px solid blue;
   
 }
-/*
-.p1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  margin-top: -150px;
+.profile-picture, .me{
+  display: inline-block;
 }
