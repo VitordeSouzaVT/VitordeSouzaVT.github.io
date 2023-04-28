@@ -1,89 +1,162 @@
-/* Define a fonte padrão e a cor de fundo da página */
-body {
-  font-family: sans-serif;
-  background-color: #c4c4c4c5;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-/* Estiliza a imagem do perfil */
-img {
-  display: block;
-  margin: auto;
-  border-radius: 50%;
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Estiliza o título principal */
-h1 {
-  text-align: center;
-  font-size: 36px;
-  margin-top: 20px;
+.header {
+  border: 2px solid red;
+  margin: auto;
+  padding: 30px 50px 30px 50px;
+  background-color: rgb(212, 212, 199);
+  height: 15px;
+
 }
 
-/* Estiliza o parágrafo "Sobre mim" */
-#sobre-mim {
-  text-align: justify;
-  font-size: 18px;
-  margin: 20px 10px;
+.tittle {
+  text-align: center;
+  margin: -10px;
+  font-family: 'Castoro Titling', cursive;
+  color: rgb(99, 99, 99);
+}
+
+.tittle:hover {
+  font-style: oblique;
+}
+
+/* Estiliza a barra de navegação */
+nav {
+  border: 2px solid yellow;
+  height: 30px;
+  background-color: rgb(229, 230, 220)
+}
+
+.navegadores {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: rgb(99, 99, 99);
+  margin: 10px;
+
+}
+
+.navegadores:active {
+  cursor: pointer;
+  font-weight: lighter;
+}
+
+.navegadores:hover {
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+  -webkit-text-stroke: 2px rgb(82, 82, 82);
+  transition-timing-function: ease-in-out;
+}
+
+/* Seção 2 */
+.article1 {
+  background-color: rgb(241, 242, 235);
+  display: flex;
+
+}
+
+/* Estiliza a imagem do perfil */
+.profile-picture {
+  width: 300px;
+  height: 300px;
+}
+
+/* Estiliza a seção sobre mim */
+.me {
+  border: 2px solid blue;
+}
+
+#sobremim {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 30px;
+  text-align: center;
+}
+
+/* Estiliza a seção minhas habilidades */
+.article2 {
+  border: 2px solid orange;
+  padding: 20px 30px;
+  background-color: rgb(241, 242, 235);
+  display: flex;
+}
+
+#myskills {
+  border: 2px solid rgb(100, 25, 60);
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+
+.hard-skills {
+  margin-left: 160px;
+  padding: 20px;
+  background-color: rgb(212, 212, 199);
+  border-radius: 18px;
+  line-height: 1.5;
+  background: rgb(212, 212, 199);
+  box-shadow: 20px 20px 60px #d0d8ca, -20px -20px 60px #abb6ae;
+  width: 210px;
+  margin-top: 50px;
+}
+
+.soft-skills {
+  margin-left: 100px;
+  padding: 20px;
+  background-color: rgb(212, 212, 199);
+  border-radius: 18px;
+  line-height: 1.5;
+  background: rgb(212, 212, 199);
+  box-shadow: 20px 20px 60px #d0d8ca, -20px -20px 60px #abb6ae;
+  width: 210px;
+  margin-top: 50px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 20px;
   line-height: 30px;
 }
 
-/* Estiliza a imagem de MG */
-#format-image {
-    border-radius: 0%;
-    width: 25px;
-    margin-top: -20px;
-    margin-left:510px;
+
+.list-skills {
+  list-style: none;
+  text-align: center;
+  margin-top: 2px;
 }
 
-/* Estiliza os parágrafos de informações pessoais */
-p {
-  font-size: 20px;
-  margin: 10px 10px 0;
+footer {
+  background-color: rgb(212, 212, 199);
+  height: 80px;
 }
 
-/* Estiliza os títulos secundários */
-h2, h3 {
-  font-size: 24px;
-  margin-top: 20px;
+article h3 section h4 ul li {
+  list-style: none;
+  text-align: center;
 }
 
-/* Estiliza a lista de habilidades */
-ul {
-  list-style-type: style m;
-  margin: 20px 10px;
-  padding: 5px;
+.contact-me {
+  background-color: rgb(241, 242, 235);
 }
 
-/* Estiliza os itens da lista de habilidades */
-li {
-  font-size: 18px;
-  margin-bottom: 10px;
+li a {
+  color: black;
 }
-
-/* Estiliza os links das redes sociais e dos links externos */
-a {
-  color: #54656e;
-  text-decoration: underline;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Estiliza o índice, ainda não foi feito */
-#indice {
-  margin-top: 20px;
-}
-
-/* Estiliza os itens do índice, ainda não foi feito */
-#indice li {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-/* Insere imagem de fundo, ainda não foi feito */
-
-body {
-    background-image: url;
-    background-size: cover;/* faz com que a imagem cubra todo o fundo */
-  }
-  
