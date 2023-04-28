@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding:
+  padding: none; 
 }
 
 /* Estiliza o título principal */
@@ -29,7 +29,7 @@
 .sobre-mim {
   
 }
-
+/*
 .p1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
